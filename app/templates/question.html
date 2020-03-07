@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Ask a yes/no question and i tell you the truth!</h1>
+    Question: <input id="question" type="text">
+    <button id="button">Tell me!</button>
+    <p id="answer">Answer: </p>
+    <a href="/">home</a>
+{% endblock %}
+
+{% block script %}
+    <script src="/static/question.js"></script>
+{% endblock %}

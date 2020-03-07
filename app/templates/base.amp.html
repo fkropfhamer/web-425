@@ -1,0 +1,41 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/logos/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/logos/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/logos/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/logos/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/logos/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/logos/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/logos/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/logos/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/logos/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/logos/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/logos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/logos/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/logos/favicon-16x16.png">
+    <link rel="manifest" href="/static/logos/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/logos/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href={{ request.url }}>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>
+  <body>
+    {% block header %}
+        <a href="/mobile/">index</a>
+        <a href="/mobile/mobile">mobile</a>
+    {% endblock %}
+    {% block content %}{% endblock %}
+  </body>
+</html>
